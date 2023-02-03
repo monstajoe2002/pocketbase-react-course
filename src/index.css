@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  max-width: 768px;
+  margin: auto;
+  padding: 1.25rem 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #fefdfd;
+}
+@layer components {
+  .container {
+    @apply block border-2 rounded-md p-8 text-3xl;
+  }
+  .todo-title {
+    @apply text-2xl ml-4;
+  }
+  .todo-desc {
+    @apply text-base text-gray-400;
+  }
+  .text-input{
+    @apply border-2 border-gray-300  rounded-md box-content h-4 p-4
+  }
+}
