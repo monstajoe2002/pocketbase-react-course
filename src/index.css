@@ -13,12 +13,7 @@
   .container {
     @apply block border-2 rounded-md p-8 text-3xl;
   }
-  .todo-title {
-    @apply text-2xl ml-4;
-  }
-  .todo-desc {
-    @apply text-base text-gray-400;
-  }
+
   .text-input{
     @apply border-2 border-gray-300  rounded-md box-content h-4 p-4
   }

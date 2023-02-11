@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import TodoList from "../components/TodoList";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <TodoList />
+    </div>
+  );
 }
